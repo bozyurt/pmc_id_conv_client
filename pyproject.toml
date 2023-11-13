@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmc_id_converter_client"
+version = "0.0.1"
+authors = [
+  { name="I. Burak Ozyurt", email="iozyurt@health.ucsd.edu" },
+]
+description = "A simple wrapper for PubMed ID Converter Service"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests >= 2.31.0",
+    "tqdm >= 4.66.1",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
